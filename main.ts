@@ -296,6 +296,9 @@ Car = sprites.create(img`
 Car.ay = 400
 Car.vx = 100
 scene.cameraFollowSprite(Car)
+for (let index = 0; index < 80; index++) {
+    music.play(music.stringPlayable("E B C5 A B G A F ", 120), music.PlaybackMode.UntilDone)
+}
 forever(function () {
     info.changeScoreBy(1)
     pause(2000)
