@@ -1,6 +1,6 @@
 {
-    "name": "Side Scroller",
-    "description": "",
+    "name": "car game modified",
+    "description": "This is super good and deserves a super good mark.",
     "dependencies": {
         "device": "*"
     },
